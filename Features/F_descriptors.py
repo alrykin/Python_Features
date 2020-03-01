@@ -27,7 +27,6 @@ class Descriptor():
       print(text) 
 
 
-
 class Descriptor_usage():
   descripted_value = Descriptor()
 
@@ -41,3 +40,10 @@ class Descriptor_usage():
 
   def value_set(self, value):
     self.descripted_value = value
+
+
+if __name__ == '__main__':
+  c= Descriptor_usage()
+  print(f" current value is = {c.value_get()}")
+  c.value_set(1)
+  print(f" current value is = {c.value_get()}")
