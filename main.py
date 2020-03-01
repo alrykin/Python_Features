@@ -18,13 +18,14 @@ class Console():
       name = input("\n>>>")
       try: c.call(name)
       except KeyError:
-       print("There is no such command. Try 'list' ")
+        print("There is no such command. Try 'list' ")
       except SystemExit:  
-       print("Thanks for using")
-       break
+        #raise SystemExit("Thanks for using")
+        print("Thanks for using")
+        break
 
 
 if __name__ == "__main__":
   c = Console()
-  c.run()
-
+  #c.run()
+  c.call("exeptions")

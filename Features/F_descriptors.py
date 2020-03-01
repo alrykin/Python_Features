@@ -1,6 +1,5 @@
 # value description code example. GOTO for watching over some stuff
-
-#! exess_info remove method is not implemetned
+#!? exess_info remove method is not implemetned
 
 class Descriptor():
   value = None
