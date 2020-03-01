@@ -9,7 +9,7 @@ class Features():
                          "descriptor" : self.descriptor, 
                          "exeptions" : self.exeptions, 
                          "f2" : 2, 
-                         "f3" : 3
+                         "f2" : 3
                          } 
 
   def list_of_features(self):
@@ -25,16 +25,18 @@ class Features():
 
   def exeptions(self):
     e = Exeption_handler()
-    e.key_error()
-    e.index_error()
-    e.zero_division_error()
-    e.type_error()
-    e.name_error()
-    e.value_error()
-    e.io_error()
-    e.import_error()
-    e.w_warning()
     e.eof_error()
     e.exception_error()
     e.file_exists_error()
+    e.file_not_found_error()
+    e.import_error()
+    e.index_error()
+    e.io_error()
+    e.key_error()
+    e.keyboard_interrupt()
+    e.name_error()
+    e.type_error()
+    e.value_error()
+    e.w_warning()
+    e.zero_division_error()
 
