@@ -8,8 +8,14 @@ class Features():
                          "exit" : sys.exit,
                          "descriptor" : self.descriptor, 
                          "exeptions" : self.exeptions, 
-                         "f2" : 2, 
-                         "f2" : 3
+                         "f1_NR" : 1, 
+                         "f2_NR" : 1,
+                         "f3_NR" : 1, 
+                         "f4_NR" : 1,
+                         "f6_NR" : 1, 
+                         "f7_NR" : 1,
+                         "f8_NR" : 1, 
+                         "f9_NR" : 1,
                          } 
 
   def list_of_features(self):

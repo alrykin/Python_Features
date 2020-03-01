@@ -11,8 +11,9 @@ class Console():
       sys.exit()
 
   def call(self, name):
-    self.feature.feature_list[name]() 
-
+    try: self.feature.feature_list[name]() 
+    except: print("Command not realized yet(")
+  
   def run(self):
     while 1:
       name = input("\n>>>")
@@ -27,5 +28,5 @@ class Console():
 
 if __name__ == "__main__":
   c = Console()
-  #c.run()
-  c.call("exeptions")
+  c.run()
+  #c.call("exeptions")
